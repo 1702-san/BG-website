@@ -87,6 +87,7 @@ span {
   background-image:url(evt-img.jpg);
   padding:100px;
   background-repeat: no-repeat;
+     margin: 50px 50px 50px 50px ;
   }
   #textbox{
   width:100px;
