@@ -85,10 +85,10 @@ span {
 }
  #background{
   background-image:url(evt-img.jpg);
-  padding:40px;
+  padding:100px;
   }
   #textbox{
-  width:auto;
+  width:100px;
   height:100px;
   opacity:0.8;
   padding:10px;
