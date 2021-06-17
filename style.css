@@ -212,7 +212,7 @@ span {
 .top-right {
   position: absolute;
   top: 8px;
-  right: 16px;
+  right: 0px;
 }
 
 .bottom-right {
