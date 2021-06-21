@@ -213,8 +213,8 @@ span {
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  background-image: linear-gradient(to right, hotpink , azure);
-  width: 50%;
+  background-image: linear-gradient(to right, hotpink , indigo);
+  width: 30%;
   padding: 50px;
   height: 300px; 
 }
