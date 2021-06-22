@@ -232,3 +232,99 @@ span {
     width: 100%;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: poppins, sans-serif;
+}
+
+.main-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 150px;
+}
+
+.main-nav li {
+  list-style: none;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #000;
+  transform: rotate(45deg);
+  transition: 0.5s;
+  margin: -100px;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.main-nav li:hover {
+  opacity: 1;
+}
+
+.main-nav li.item1 {
+  top: 0;
+  left: 0;
+}
+
+.main-nav li.item2 {
+  bottom: 0;
+  left: 25%;
+}
+
+.main-nav li.item3 {
+  top: 0;
+  left: 50%;
+}
+
+.main-nav li.item4 {
+  bottom: 0;
+  left: 75%;
+}
+
+.main-nav li.item5 {
+  top: 0;
+  left: 100%;
+}
+
+.main-nav li .bg {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.1);
+}
+
+.main-nav li.item1 .bg {
+  background: url(https://www.google.com/search?q=android+development&sxsrf=ALeKk03GrkYn_qj9_4htax24aWxvYo0Zow:1624328924151&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjNuJbkmKrxAhUs3jgGHfVZAdgQ_AUoAXoECAIQAw&biw=1280&bih=520#imgrc=P1Z7MNkrij4WcM);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item2 .bg {
+  background: url(https://www.google.com/search?q=android+development&sxsrf=ALeKk03GrkYn_qj9_4htax24aWxvYo0Zow:1624328924151&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjNuJbkmKrxAhUs3jgGHfVZAdgQ_AUoAXoECAIQAw&biw=1280&bih=520#imgrc=P1Z7MNkrij4WcM&imgdii=rG91_aBa8BuI0M);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item3 .bg {
+  background: url(https://www.google.com/search?q=android+development&sxsrf=ALeKk03GrkYn_qj9_4htax24aWxvYo0Zow:1624328924151&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjNuJbkmKrxAhUs3jgGHfVZAdgQ_AUoAXoECAIQAw&biw=1280&bih=520#imgrc=zjVVtJ4XXrFaJM);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item4 .bg {
+  background: url(https://www.google.com/search?q=android+development&sxsrf=ALeKk03GrkYn_qj9_4htax24aWxvYo0Zow:1624328924151&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjNuJbkmKrxAhUs3jgGHfVZAdgQ_AUoAXoECAIQAw&biw=1280&bih=520#imgrc=f3aYW_ZgL_4_sM&imgdii=RTguOMkV6bxKqM);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item5 .bg {
+  background: url(https://www.google.com/search?q=android+development&sxsrf=ALeKk03GrkYn_qj9_4htax24aWxvYo0Zow:1624328924151&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjNuJbkmKrxAhUs3jgGHfVZAdgQ_AUoAXoECAIQAw&biw=1280&bih=520#imgrc=3sJ7iHxesHdoYM&imgdii=HRpfNyaKV0Iy5M);
+  background-size: cover;
+  background-position: center;
+}
+
