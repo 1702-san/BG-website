@@ -55,3 +55,13 @@ html {
 .button:hover {
   background-color: #555;
 }
+
+#rcorners3 {
+  border-radius: 25px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 500px;
+  height: 600px;  
+}
